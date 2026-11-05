@@ -1,0 +1,23 @@
+﻿Auto-login: Welcome back, Sinchana Shetty!
+Wake listener started. Say: Hey Aura
+[DEBUG] Using MicrophoneFix (PyAudio primary)
+[DEBUG] Voice recognition ready
+[DEBUG] listen() device=1 duration=30.0s
+[DEBUG] sr.Microphone(device_index=1) openingà
+[DEBUG] PyAudio: 260096 bytes, RMS=0.205853
+[DEBUG] Using OpenAI Whisper for recognition
+[DEBUG] Whisper failed (Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}), falling back to Google
+[DEBUG] Whisper quota/key error ù disabling Whisper, switching to Google
+[DEBUG] No text recognized
+[Wake] Heard: 'tell me a joke'
+[DEBUG] listen() device=1 duration=30.0s
+[DEBUG] sr.Microphone(device_index=1) openingà
+[DEBUG] PyAudio: 124928 bytes, RMS=0.152141
+[DEBUG] Using Google Speech Recognition
+[Wake] Heard: 'tell me a joke'
+[DEBUG] Google recognized: 'tell me a joke'
+[AI] OpenAI API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Aura: Why did the math book look so sad? Because it had too many problems.
+[AI] OpenAI API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Aura: Right away! I don't have built-in knowledge about 'can you wake word', but I can search the web for you. Just say 'search for can you wake word'.
+Aura: I want to help, but I need a bit more detail. Could you rephrase that command?
